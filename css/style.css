@@ -25,6 +25,6 @@
 }
 @keyframes ship {
     from{ transform: translate(-200px, 400px);}
-    50%{ transform: translate(900px, 200px);}
-    to{ transform: translate(450px, -200px);}
+    50%{ transform: translate(900px, 200px) rotate(30deg);}
+    to{ transform: translate(450px, -200px) rotate(-40deg);}
 }
